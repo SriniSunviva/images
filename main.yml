@@ -5,4 +5,4 @@
 
 - name: Push Docker image
   run: |
-    docker push docker push srinisunviva/nginx:test
+    docker push srinisunviva/images:nginx
