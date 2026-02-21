@@ -5,4 +5,5 @@
 
 - name: Push Docker image
   run: |
-    docker push ghcr.io/https://github.com/SriniSunviva/images/nginx:latest
+    docker push ghcr.io/https://github.com/SriniSunviva/images/nginx:test_sri
+...
