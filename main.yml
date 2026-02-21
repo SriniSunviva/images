@@ -1,0 +1,8 @@
+---
+- name: Build Docker image
+  run: |
+    docker build . --file Dockerfile --tag ghcr.io/https://github.com/SriniSunviva/images/nginx:latest
+
+- name: Push Docker image
+  run: |
+    docker push ghcr.io/https://github.com/SriniSunviva/images/nginx:latest

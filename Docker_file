@@ -1,0 +1,14 @@
+# Use the official NGINX image as base
+FROM nginx:latest
+
+# Copy your custom configuration or static files if needed
+# Example: replace the default nginx.conf
+# COPY nginx.conf /etc/nginx/nginx.conf
+
+# Or serve static website files
+# COPY ./html /usr/share/nginx/html
+
+# Expose port 80
+EXPOSE 80
+
+# NGINX runs automatically with the base image’s default command
